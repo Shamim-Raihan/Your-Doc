@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_2"
+    tools:context=".DoctorSignUp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+
+        <TextView
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doctor's Sign Up"
+            android:textSize="20sp"
+
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:paddingBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="First Name"
+                android:textColor="#000000"
+
+                />
+
+            <EditText
+                android:id="@+id/DoctorSignUpFirstNameID"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/sign_up_edittext_shape"
+                android:paddingLeft="10dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Last Name"
+                android:textColor="#000000"
+
+                />
+
+            <EditText
+                android:id="@+id/DoctorSignUpLastNameID"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/sign_up_edittext_shape"
+                android:paddingLeft="10dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Age"
+                android:textColor="#000000"
+
+                />
+
+            <EditText
+                android:id="@+id/DoctorSignUpAgeID"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/sign_up_edittext_shape"
+                android:paddingLeft="10dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Sex"
+                android:textColor="#000000"
+
+                />
+
+            <RadioGroup
+                android:id="@+id/RadioGroupID"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_marginRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/male_text"
+                    android:textSize="20dp"
+                    />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/female_text"
+                    android:textSize="20dp"
+
+                    />
+
+
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Qualification"
+                android:textColor="#000000"
+
+                />
+
+            <EditText
+                android:id="@+id/DoctorSignUpQualificationID"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/sign_up_edittext_shape"
+                android:paddingLeft="10dp"
+
+                    />
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Spinner
+                    android:id="@+id/SpecialistSpinnerID"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    />
+
+
+                <Spinner
+                    android:layout_marginLeft="40dp"
+                    android:id="@+id/AreaSpinnerID"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    />
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="#000000"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select Image"
+
+                    />
+
+
+                <ImageButton
+                    android:id="@+id/UploadImageButtonID"
+                    android:background="#000000"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:src="@drawable/upload_image"
+
+
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Registration Number"
+                android:textColor="#000000"
+
+                />
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/sign_up_edittext_shape"
+                android:paddingLeft="10dp"
+
+                />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Experience(year)"
+                android:textColor="#000000"
+
+                />
+
+            <EditText
+                android:id="@+id/DoctorSignUpExperienceID"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/sign_up_edittext_shape"
+                android:paddingLeft="10dp"
+
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Organization"
+                android:textColor="#000000"
+
+                />
+
+            <EditText
+                android:id="@+id/DoctorSignUpOrganizationID"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/sign_up_edittext_shape"
+                android:paddingLeft="10dp"
+
+                />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Chamber Address"
+                android:textColor="#000000"
+
+                />
+
+            <EditText
+                android:id="@+id/DoctorSIgnUpChamberAddressID"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/sign_up_edittext_shape"
+                android:paddingLeft="10dp"
+
+                />
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:padding="5dp"
+                android:background="@drawable/visiting_section"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Visiting Hours"
+                    android:textColor="#000000"
+
+                    />
+
+                <EditText
+                    android:id="@+id/DoctorSignUpVisitingHourID"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@drawable/sign_up_edittext_shape"
+                    android:paddingLeft="10dp"
+
+                    />
+
+
+
+                <LinearLayout
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <Button
+                        android:id="@+id/SignUpVisitingHourStartTimeID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:text="start time"
+                        android:textSize="12dp"
+                        android:backgroundTint="#5972FF"
+                        />
+
+                    <Button
+                        android:id="@+id/SignUpVisitingHourEndTimeID"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:text="end time"
+                        android:textSize="12dp"
+                        android:backgroundTint="#5972FF"
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Phone Number"
+                android:textColor="#000000"
+
+                />
+
+            <EditText
+                android:id="@+id/DoctorSignUpPhoneID"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/sign_up_edittext_shape"
+                android:paddingLeft="10dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Email"
+                android:textColor="#000000"
+
+                />
+
+            <EditText
+                android:id="@+id/DoctorSignUpEmailID"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/sign_up_edittext_shape"
+                android:paddingLeft="10dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Password"
+                android:textColor="#000000"
+
+                />
+
+            <EditText
+                android:id="@+id/DoctorSignUpPasswordID"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/sign_up_edittext_shape"
+                android:paddingLeft="10dp"
+
+                />
+
+            <ProgressBar
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:id="@+id/ProgressBerID1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+
+
+
+            <Button
+                android:id="@+id/DoctorSignUpButttonID"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#5972FF"
+                />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

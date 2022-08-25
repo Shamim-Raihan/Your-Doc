@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/DailyTipsID"
+        android:icon="@drawable/daily_tips_1"
+        android:title="Daily Tips"
+        />
+
+    <item
+        android:id="@+id/EventsID"
+        android:icon="@drawable/events_1"
+        android:title="Events"
+        />
+
+
+    <item
+        android:id="@+id/SettingSID"
+        android:icon="@drawable/settings_1"
+        android:title="Settings"
+        >
+
+        <menu>
+
+            <item
+                android:id="@+id/DarkModeID"
+                android:title="Dark Mode"
+                />
+
+            <item
+                android:id="@+id/LightModeID"
+                android:title="Light Mode"/>
+
+
+
+        </menu>
+
+
+    </item>
+
+
+
+    <item
+        android:id="@+id/RateUSID"
+        android:icon="@drawable/rate_us_1"
+        android:title="Rate Us"
+        />
+
+
+
+    <item
+        android:id="@+id/ContactUsID"
+        android:icon="@drawable/contact_u_1"
+        android:title="Contact Us"
+        />
+
+
+    <item
+        android:id="@+id/AboutAppID"
+        android:icon="@drawable/about_app_1"
+        android:title="About App"
+        />
+
+
+    <item
+        android:id="@+id/ExitID"
+        android:icon="@drawable/exit_1"
+        android:title="Exit"
+        />
+
+
+
+</menu>

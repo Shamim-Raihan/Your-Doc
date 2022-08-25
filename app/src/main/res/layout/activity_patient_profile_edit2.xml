@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PatientProfileEditActivity2">
+
+    <RelativeLayout
+        android:id="@+id/topRelativ"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit your profile"
+            android:textColor="@color/TextColor"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@id/topRelativ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        >
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Name"
+            android:textColor="@color/TextColor"
+            />
+
+        <EditText
+            android:id="@+id/PatientEditProfileFirstNameID"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/sign_up_edittext_shape"
+            android:paddingLeft="10dp"
+            android:layout_below="@id/tv1"
+            />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Name"
+            android:textColor="@color/TextColor"
+            android:layout_below="@id/PatientEditProfileFirstNameID"
+            android:layout_marginTop="30dp"
+            />
+
+        <EditText
+            android:id="@+id/PatientEditProfileLastNameID"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/sign_up_edittext_shape"
+            android:paddingLeft="10dp"
+            android:layout_below="@id/tv2"
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Phone"
+            android:textColor="@color/TextColor"
+
+            />
+
+
+        <EditText
+            android:id="@+id/PatientEditProfilePhoneID"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/sign_up_edittext_shape"
+            android:paddingLeft="10dp"
+            android:layout_below="@id/tv3"
+
+            />
+
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Age"
+            android:textColor="@color/TextColor"
+            android:layout_below="@id/PatientEditProfilePhoneID"
+
+            />
+
+        <EditText
+            android:id="@+id/PatientEditProfileAgeID"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/sign_up_edittext_shape"
+            android:paddingLeft="10dp"
+            android:layout_below="@id/tv4"
+
+            />
+
+
+        <Button
+            android:id="@+id/PatientProfileEditButtonID"
+            android:textSize="15dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#5972FF"
+            android:layout_below="@id/PatientEditProfileAgeID"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

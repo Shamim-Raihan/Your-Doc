@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_2"
+    android:orientation="vertical"
+    tools:context=".EditProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/toolbar_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="20dp">
+
+        <LinearLayout
+            android:id="@+id/top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="First Name"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/DoctorEditProfileFirstNameID"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/sign_up_edittext_shape"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Last Name"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/DoctorEditProfileLastNameID"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/sign_up_edittext_shape"
+                android:paddingLeft="10dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Qualification"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/DoctorEditProfileQualificationID"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:background="@drawable/sign_up_edittext_shape"
+                android:paddingLeft="10dp"
+                />
+
+
+            <Spinner
+                android:id="@+id/DoctorEditProfileSpecialistID"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="20dp"
+                android:foreground="?selectableItemBackground"
+                android:paddingLeft="10dp"
+                android:paddingTop="7dp"
+                android:paddingBottom="5dp"
+                />
+
+
+            <Spinner
+                android:id="@+id/DoctorEditProfileAreaID"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="20dp"
+                android:foreground="?selectableItemBackground"
+                android:paddingLeft="10dp"
+                android:paddingTop="7dp"
+                android:paddingBottom="5dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:text="Select Image"
+                    android:textColor="#000000"
+                    />
+
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#000000"
+                    android:src="@drawable/upload_image" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Experience(year)"
+                android:textColor="#000000"
+                />
+
+            <EditText
+                android:id="@+id/DoctorEditProfileExperienceID"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/sign_up_edittext_shape"
+                android:paddingLeft="10dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Organization"
+                android:textColor="#000000"
+
+                />
+
+            <EditText
+                android:id="@+id/DoctorEditProfileOrganizationID"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/sign_up_edittext_shape"
+                android:paddingLeft="10dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Chamber Address"
+                android:textColor="#000000"
+                />
+
+            <EditText
+                android:id="@+id/DoctorEditProfileChemberAddressID"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/sign_up_edittext_shape"
+                android:paddingLeft="10dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Phone Number"
+                android:textColor="#000000"
+                />
+
+            <EditText
+                android:id="@+id/DoctorEditProfilePhoneID"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/sign_up_edittext_shape"
+                android:paddingLeft="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Your Charge(TK)"
+                android:textColor="#000000"
+                />
+            <EditText
+                android:id="@+id/DoctorEditProfileFeesID"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/sign_up_edittext_shape"
+                android:paddingLeft="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/visiting_section"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Visiting Hours"
+                    android:textColor="#000000"
+                    />
+
+                <EditText
+                    android:id="@+id/DoctorEditProfileVisitingHourID"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@drawable/sign_up_edittext_shape"
+                    android:paddingLeft="10dp"
+
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/EditVisitingHourStartTimeID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:backgroundTint="#5972FF"
+                        android:text="start time"
+                        android:textSize="12dp" />
+
+                    <Button
+                        android:id="@+id/EditVisitingHourEndTimeID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="20dp"
+                        android:backgroundTint="#5972FF"
+                        android:text="end time"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Your avialable slot"
+                        android:textColor="#000000" />
+
+                </LinearLayout>
+
+
+                <Spinner
+                    android:id="@+id/DoctorEditProfileSelectDayID"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:foreground="?selectableItemBackground"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="7dp"
+                    android:paddingBottom="5dp"
+                    />
+
+                <EditText
+                    android:id="@+id/DoctorEditProfileShowDayID"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/sign_up_edittext_shape"
+                    android:gravity="top"
+                    android:padding="10dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/DoctorEditProfileStartTimeButtonID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#5972FF"
+                        android:text="start time"
+                        android:textSize="12dp" />
+
+                    <Button
+                        android:id="@+id/DoctorEditProfileEndTimeButtonID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:backgroundTint="#5972FF"
+                        android:text="end time"
+                        android:textSize="12dp" />
+
+                    <Button
+                        android:id="@+id/DoctorEditProfileConfirmButtonID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:backgroundTint="#5972FF"
+                        android:text="Confirm"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/DoctorEditProfileEditButtonID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#5972FF"
+                android:text="Edit Profile"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

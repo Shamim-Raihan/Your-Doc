@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5BA5C7</color>
+    <color name="colorPrimaryDark">#5BA5C7</color>
+    <color name="colorAccent">#272727</color>
+
+    <color name="RVbackground">#ffffff</color>
+    <color name="TextColor">#000000</color>
+    <color name="Background">#ffffff</color>
+
+    <color name="BottomNav">#5972FF</color>
+    <color name="ItemColor">#000000</color>
+    <color name="SelectedItemColor">#FFFFFF</color>
+    <color name="OverLayColor">#00000000</color>
+
+    <color name="chatLeft">#FFFFFF</color>
+    <color name="chatLeftText">#000000</color>
+    <color name="chatRight">#000000</color>
+    <color name="chatRightText">#ffffff</color>
+
+    <color name="lastDisplayText">#424242</color>
+
+
+
+</resources>

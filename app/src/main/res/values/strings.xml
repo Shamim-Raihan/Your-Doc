@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Your Doc</string>
+
+    <string name="male_text">Male</string>
+    <string name="female_text">Female</string>
+
+
+    <string-array name="area">
+
+        <item>Select Area</item>
+        <item> Barisal </item>
+        <item> Chittagong </item>
+        <item> Dhaka </item>
+        <item> Khulna </item>
+        <item> Mymensingh </item>
+        <item> Rajshahi </item>
+        <item> Rangpur </item>
+        <item> Sylhet </item>
+
+
+    </string-array>
+
+    <string-array name="area_2">
+
+        <item> Barisal </item>
+        <item> Chittagong </item>
+        <item> Dhaka </item>
+        <item> Khulna </item>
+        <item> Mymensingh </item>
+        <item> Rajshahi </item>
+        <item> Rangpur </item>
+        <item> Sylhet </item>
+
+
+    </string-array>
+
+
+    <string-array name="specialist">
+
+        <item>Select Specialist</item>
+        <item> Cardiologist </item>
+        <item> Dentist </item>
+        <item> Hepatologist </item>
+        <item> Neorologist </item>
+        <item> Nephrologist </item>
+        <item> Orthopedist </item>
+        <item> Psychiatrist </item>
+        <item> Pulmonologist </item>
+
+    </string-array>
+
+
+    <string-array name="doctor_catagory">
+
+
+        <item> Cardiologist </item>
+        <item> Dentist </item>
+        <item> Hepatologist </item>
+        <item> Neorologist </item>
+        <item> Nephrologist </item>
+        <item> Orthopedist </item>
+        <item> Psychiatrist </item>
+        <item> Pulmonologist </item>
+    </string-array>
+
+    <string-array name="day">
+        <item>select day</item>
+        <item> saturday </item>
+        <item> sunday </item>
+        <item> monday </item>
+        <item> tuesday </item>
+        <item> wednesday </item>
+        <item> thursday </item>
+        <item> friday </item>
+
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_here">Search here</string>
+    <string name="admin_form">Admin Form</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="title_image">Title Image</string>
+    <string name="enter_title">Enter title</string>
+    <string name="select_image">select image</string>
+
+
+</resources>

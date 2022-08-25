@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Your Doc</string>
+
+    <string name="male_text">Male</string>
+    <string name="female_text">Female</string>
+
+
+    <string-array name="area">
+
+        <item>Select Area</item>
+        <item> Barisal </item>
+        <item> Chittagong </item>
+        <item> Dhaka </item>
+        <item> Khulna </item>
+        <item> Mymensingh </item>
+        <item> Rajshahi </item>
+        <item> Rangpur </item>
+        <item> Sylhet </item>
+
+
+    </string-array>
+
+    <string-array name="area_2">
+
+        <item> Barisal </item>
+        <item> Chittagong </item>
+        <item> Dhaka </item>
+        <item> Khulna </item>
+        <item> Mymensingh </item>
+        <item> Rajshahi </item>
+        <item> Rangpur </item>
+        <item> Sylhet </item>
+
+
+    </string-array>
+
+
+    <string-array name="specialist">
+
+        <item>Select Specialist</item>
+        <item> Cardiologist </item>
+        <item> Dentist </item>
+        <item> Hepatologist </item>
+        <item> Neorologist </item>
+        <item> Nephrologist </item>
+        <item> Orthopedist </item>
+        <item> Psychiatrist </item>
+        <item> Pulmonologist </item>
+
+    </string-array>
+
+
+    <string-array name="doctor_catagory">
+
+
+        <item> Cardiologist </item>
+        <item> Dentist </item>
+        <item> Hepatologist </item>
+        <item> Neorologist </item>
+        <item> Nephrologist </item>
+        <item> Orthopedist </item>
+        <item> Psychiatrist </item>
+        <item> Pulmonologist </item>
+
+
+    </string-array>
+
+
+    <string-array name="day">
+
+        <item>select day</item>
+        <item> saturday </item>
+        <item> sunday </item>
+        <item> monday </item>
+        <item> tuesday </item>
+        <item> wednesday </item>
+        <item> thursday </item>
+        <item> friday </item>
+
+    </string-array>
+
+
+</resources>

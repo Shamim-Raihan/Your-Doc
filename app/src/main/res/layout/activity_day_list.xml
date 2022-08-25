@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_2"
+    tools:context=".DayList">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/OverLayColor"/>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <Button
+            android:id="@+id/saturday"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#5972FF"
+            android:textColor="@color/TextColor"
+            android:text="Saturday"
+            android:layout_marginBottom="30dp"
+            />
+
+        <Button
+            android:id="@+id/sunday"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#5972FF"
+            android:textColor="@color/TextColor"
+            android:text="Sunday"
+            android:layout_marginBottom="30dp"
+            />
+
+        <Button
+            android:id="@+id/monday"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#5972FF"
+            android:textColor="@color/TextColor"
+            android:text="monday"
+            android:layout_marginBottom="30dp"
+            />
+
+        <Button
+            android:id="@+id/tuesday"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#5972FF"
+            android:textColor="@color/TextColor"
+            android:text="Tuesday"
+            android:layout_marginBottom="30dp"
+            />
+
+        <Button
+            android:id="@+id/wednesday"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#5972FF"
+            android:textColor="@color/TextColor"
+            android:text="wednesday"
+            android:layout_marginBottom="30dp"
+            />
+
+        <Button
+            android:id="@+id/thursday"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#5972FF"
+            android:textColor="@color/TextColor"
+            android:text="thursday"
+            android:layout_marginBottom="30dp"
+            />
+
+        <Button
+            android:id="@+id/friday"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#5972FF"
+            android:textColor="@color/TextColor"
+            android:text="friday"
+            android:layout_marginBottom="30dp"
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

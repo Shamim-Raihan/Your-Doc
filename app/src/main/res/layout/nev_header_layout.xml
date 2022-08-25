@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="260dp"
+    android:background="@drawable/side_drawer"
+    android:padding="20dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/app_icon_small_1"
+                android:id="@+id/UserImageID"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/profile_image_shape"
+                android:scaleType="centerCrop"
+                android:foreground="?selectableItemBackground"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            >
+
+
+            <Button
+                app:strokeColor="#F1F1F1"
+                app:strokeWidth="2dp"
+                android:layout_width="100dp"
+                android:layout_height="45dp"
+                android:text="English"
+                android:layout_marginTop="10dp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/UserNameID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Doc"
+        android:textSize="35sp"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/UserEmailID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="yourdocbd@gamil.com"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+    <Button
+        android:id="@+id/loginButtonID"
+        android:layout_marginTop="10dp"
+        app:strokeColor="#F1F1F1"
+        app:strokeWidth="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+    <Button
+        android:id="@+id/logOutButtonID"
+        android:layout_marginTop="10dp"
+        app:strokeColor="#F1F1F1"
+        app:strokeWidth="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+</LinearLayout>
